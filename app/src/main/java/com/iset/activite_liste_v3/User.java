@@ -1,10 +1,10 @@
 package com.iset.activite_liste_v3;
 
 public class User {
-    public String name;
-    public String hometown;
+    String name;
+    String hometown;
 
-    public User(String name, String hometown){
+    User(String name, String hometown){
         this.name = name;
         this.hometown = hometown;
     }
@@ -24,6 +24,5 @@ public class User {
     public void setHometown(String hometown) {
         this.hometown = hometown;
     }
-
 
 }
